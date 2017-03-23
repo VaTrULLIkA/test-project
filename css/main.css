@@ -298,7 +298,6 @@ div.side-panel {
 .menu {
     position: fixed;
     display: block;
-    margin-top: 300px;
     width: 298px;
 }
 .btn-menu {
@@ -348,4 +347,13 @@ a {
 div.btn-menu-container a.link-menu:hover {
     cursor: pointer;
     color: #025AA5 !important;
+}
+
+.logo {
+    background-image: url("http://localhost:63342/nix-cookies/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 220px;
+    margin-top: 40px;
 }
