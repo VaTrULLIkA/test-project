@@ -1,0 +1,8 @@
+var client = new SwaggerClient({
+            authorizations: {
+                api_key: new SwaggerClient.ApiKeyAuthorization("Authorization", "Bearer Ge7LPIG177jAmnvXfoogJQayBeQdtgA2jNx1QokOiIlkMfS6Dnfi4mGdSLGq", "header"),
+                api_version: new SwaggerClient.ApiKeyAuthorization("api-version", "v1", "header")
+            }
+        });
+        window.swaggerUi.api = client;
+    window.swaggerUi.load();
