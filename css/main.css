@@ -286,6 +286,8 @@ body {
 }
 
 div.side-panel {
+    top: 0;
+    margin: 0;
     position: fixed;
     display: block;
     width: 300px;
@@ -356,4 +358,85 @@ div.btn-menu-container a.link-menu:hover {
     width: 100%;
     height: 220px;
     margin-top: 40px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-content {
+    color: white;
+    margin-top: 80px;
+    margin-left: 300px;
+    display: block;
+}
+
+.nav-bar {
+    top: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    z-index: 2;
+}
+
+button#btnToggleSidePanel {
+    height: 25px;
+    margin: 12px 10px;
+    color: white;
+    border: none;
+    display: block;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    border: none;
+    background: #016BB5;
+    font-size: 14px;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+}
+
+.btn-file:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.displayNone {
+    display: none;
+}
+
+.btn {
+    color: white !important;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.imagePreviewCssStyle {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#containerForUploadAvatar {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
